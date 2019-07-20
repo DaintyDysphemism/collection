@@ -1,2 +1,2 @@
-# hello-world
+# Collection
 First/placeholder repository.
