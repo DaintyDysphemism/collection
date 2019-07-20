@@ -1,116 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Automated packing list</title>   
+    <title>Mia's Collection</title>   
   </head>
   
   <body>
-  <h1>Mias automatiserade packlista</h1>
-  
-  <form action="/action_page.php" method="get">
-    <label for="days">Antal dagar:</label>
-    <!--Date calculator? -->
-    <input id="days" name="days" type="number">
-    <br> <br>
-    <label for="season">Frvntat vder:</label>
-    <br>
-    <label for="season">Kallt</label>
-    <input id="season" name="season" type="range" min="0" max="2" step="1">
-    <label for="season">Varmt</label>
-    <br> <br>
-    <!-- Om varmt s klnningar samt freml ssom solkrm, sandaler osv.-->
-    <!-- Om varmt s freml ssom extra skor, raggsockor -->
-    <label for="dresses">Antal somriga klnningar:</label>
-    <input id="dresses" name="dresses" type="number">
-    <br><br>
-    
-    <label for="celebration">Firande/fest/hgtid?</label>
-    <input name="celebration" id="celebyes" type="radio" value="yes">
-    <label for="celebyes">Ja</label>
-    <input id="celebno" name="celebration" type="radio" value="no">
-    <label for="celebno">Nej</label>
-    <br>
-    <label for="swimming">Planer att bada?</label>
-    <input type="radio" id="swimyes" value="yes">
-    <label for="swimyes">Ja</label>
-    <input type="radio" id="swimno" value="no">
-    <label for="swimno">Nej</label>
-    <br>
-    <label for="menstruation">Mens?</label>
-    <input type="radio" id="ongoingmens" value="yes">
-    <label for="ongoingmens">Pgende</label>
-    <input type="radio" id="mensrisk" value="maybe">
-    <label for="mensrisk">Risken finns</label>
-    <br>
-    <br>
-    <input type="submit" value="Skicka" onclick="myFunction()">
-    <input type="reset" value="terstll">
-    <!--
-			
-		-->
-  </form>
-    <div>
-    <!--preferrably show section onClick submit, hide section onClick reset-->
-    <h2>Att packa</h2>
-    <p>Min total of tops:</p>
-      <p>Shortsleeves:</p>
-      <p>Longsleeves:</p>
-      <p>Min total of bottoms:</p>
-      <!--A dress equals both a top and a bottom: mention somewhere? Celebration dress not included. -->
-    </div>
-    <!--calculate -->
-    <script>
-      /*
-      	var days = (userinput)
-        var nights = days-1
-      	var dresses = (userinput)
-        var celebration = (userinput)
-        //variabler menstruation och bada
-      	var tops = ceil(days/2) - dresses;
-        var shsl; //shortsleeves
-				var losl; //longsleeves
-				var pullovers;
-        var bottoms = ceil(days/3) - dresses;
-        var underwear = days-2;
-        var sockpairs = days-2;
-        var bras = ceil(days/3.5);
-        var pjtops = ceil(nights/2.5);
-        var pjpants = ceil(nights/5);
-      */
-      function myFunction() {
-        /* if(season === 0) {
-              shsl = round(tops*0.8);
-              losl = ceil((tops+dresses)*0.3);
-              pullovers = ceil(days/5);
-              textSize(12);
-              text("(jic)", textX+114, textY+91);
-          }  else if (season === 1) {
-              shsl = round(tops*0.2);
-              losl = round(tops*0.8);
-              pullovers = ceil(days/3);
-          } else {
-              shsl = floor(tops/2);
-              losl = ceil(tops/2);
-              pullovers = ceil(days/3);
-          }
-          
-          if(celebration === true) {
-            textSize(14);
-            text(":", textX+77, textY+241);
-            textSize(12);
-            text("Dress, *bra, *panties, shoes, socks, *stockings, access.", textX+11, textY+259);
-        } else if (celebration === false) {
-            line(textX-2, textY+236, textX+79, textY+236);
-        } else { 
-            textSize(15);
-            text("?", textX+77, textY+241);
-        }
-        
-        */
-      }
-    </script>
-    
-      <!-- -->
+	  <h1>Mia's Collection</h1>
+	  <h2>Repository of misc. projects gathered on my journey to master coding.</h2>
+	  <a href="packinglist.html">Automated packing list</a> <p>(text in Swedish)</p>
   </body>
 
 </html>
