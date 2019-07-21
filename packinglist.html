@@ -43,7 +43,7 @@
     <label for="mensrisk">Risken finns</label>
     <br>
     <br>
-    <input type="submit" value="Skicka" onclick="myFunction()">
+    <input type="submit" value="Skicka" onclick="calculatePacking()">
     <input type="reset" value="Återställ">
     <!--
 			
@@ -71,8 +71,8 @@
         //variabler menstruation och bada
       	var tops = ceil(days/2) - dresses;
         var shsl; //shortsleeves
-				var losl; //longsleeves
-				var pullovers;
+	var losl; //longsleeves
+	var pullovers;
         var bottoms = ceil(days/3) - dresses;
         var underwear = days-2;
         var sockpairs = days-2;
@@ -80,7 +80,7 @@
         var pjtops = ceil(nights/2.5);
         var pjpants = ceil(nights/5);
       */
-      function myFunction() {
+      function calculatePacking() {
         /* if(season === 0) {
               shsl = round(tops*0.8);
               losl = ceil((tops+dresses)*0.3);
