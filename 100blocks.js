@@ -1,12 +1,43 @@
-/*Program idea: a version of Tim Urban's "100 boxes a day" that shows you how many boxes you have left/used by a) showing a line where the day is currently at and/or b) greying out the boxes that have already been used.
-When to start the day? Either change the variable from the code or have user input.
+/*Program idea: a version of Tim Urban's "100 boxes a day" that shows you how many boxes you have left/used.
     If I put day start at 8'o'clock, then the day will finish 1000 minutes (16.66... hours) later.*/
-    
+
 //Options for showing time elapsed
 //A. Grey out all used full boxes
 //B. Continual greying out
 //C. Used full boxes "disappear"
 //D. Boxes "shrink" (get painted over by smaller box)
+//E. Line to show current minute
+
+/*<!--Rubber duck pseudo-code
+
+    What I want the program to do:
+    
+    *. Calculate the amount of time (minutes) since the user's wake-up time, then display the results as "used" and "unused" boxes on a 10x10 grid.
+    
+    1. Draw
+        a. canvas across the screen
+        b. "10x10 grid"
+            i.  loop 10 times
+            ii. draw rect (same size)
+        c. progress bar
+            current solution ("time elapsed"-options A. and B. in combination):
+            i. finished bar
+                1. get value from amount of time progressed
+                2. if more than rect-size times 10 (a row), paint full row and stop.
+            ii. counting bar
+                - incomplete
+            
+    2. Figure out
+        a. Amount of time progressed since wake-up.
+            i.  value from user input wake-up-time
+            ii. get device time
+            iii. calc difference
+            iv. output (return?)
+        
+    3. Interactive options
+        a. input wake-up-time
+            
+    -->*/
 
 //Draws a 10x10 grid using a loop, where the x and y positions of each rectangle are linked to the size of each rectangle for easy resizing.
 
