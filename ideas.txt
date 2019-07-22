@@ -4,6 +4,11 @@ Påbörjade projekt raderas från listan
 
 1. 100 boxes progress program [INITIATED]
 2. Automated packing list [INITIATED]
-3. Something Top Gear something?
+3. Something Top Gear jokes/references something?
 4. Theatre line feeder (already done?)
   - Sortera manus efter roller, scener,
+5. Laundry predicting algorithm
+  - Samla data (-> databas) om plagg, gemensamma egenskaper, dagar från påtagande till tvätt
+  - Info om hur mycket som får plats i en tvätt (se även olika tvättmaterial)
+6. Algoritm som "ger förslag på aktiviteter baserade på angett humör, även 'jag lutar ca % utav dessa två alternativ, vilket ska jag ta'?" (Gustavs påfund)
+  - Känslohjul från asp? (Mood wheel for authors/writing)
