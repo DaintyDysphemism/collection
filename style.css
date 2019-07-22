@@ -1,5 +1,5 @@
 body {
-  background-image: clownpoodle.jpg;
+  background-image: url(clownpoodle.jpg);
   display: inline; 
   text-align: left;
   color: #000;
@@ -7,7 +7,7 @@ body {
 }
 
 /* .front-page {
-  background-image: clownpoodle.jpg;
+  background-image: url(clownpoodle.jpg);
   text-align: left;
   font-family: Garamond;
 } */
