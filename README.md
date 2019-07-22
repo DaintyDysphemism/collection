@@ -1,6 +1,7 @@
 # Collection
 
 Repository to-do:
+ - Adjust "module" canvas, thereby (or otherwise) make image resize according to device screen
   
   
 Projects in progress:
