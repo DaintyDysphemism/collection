@@ -1,4 +1,7 @@
 body {
+  background-image: clownpoodle.jpg;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: inline; 
   text-align: left;
   color: #000;
