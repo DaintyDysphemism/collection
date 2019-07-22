@@ -1,7 +1,7 @@
 # Collection
 
 Repository to-do:
- - Adjust "module" canvas, thereby (or otherwise) make image resize according to device screen
+ - (Solved?) Adjust body width to browser size (thereby indirectly adjusting size of clownpoodle)
   
   
 Projects in progress:
