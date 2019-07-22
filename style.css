@@ -1,6 +1,6 @@
 body {
   display: inline; 
-  background-size: cover;
+  background-size: contain;
   text-align: left;
   color: #000;
   font-family: Garamond;
