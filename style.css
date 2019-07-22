@@ -1,15 +1,12 @@
 body {
-  background: #139119; 
-}
-
-h1 {
-  background-color: #fff;
+  display: inline; 
+  text-align: left;
+  color: #000;
   font-family: Garamond;
-  color: #cc0b0b;
-  text-align: center;
 }
 
-h3 {
- font-family: Garamond;
- text-align: center;
-}
+/* .front-page {
+  background-image: clownpoodle.jpg;
+  text-align: left;
+  font-family: Garamond;
+} */
