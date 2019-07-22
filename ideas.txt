@@ -1,6 +1,5 @@
 _Idea bucket!_
 Numerically according to time of invention.
-Påbörjade projekt raderas från listan
 
 1. 100 boxes progress program [INITIATED]
 2. Automated packing list [INITIATED]
