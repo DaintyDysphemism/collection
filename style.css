@@ -1,6 +1,6 @@
 body {
   background-image: clownpoodle.jpg;
-  background-size: contain;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   display: inline; 
   text-align: left;
