@@ -11,18 +11,17 @@ body {
   font-weight: 200;
   position: relative;
   top: 0;
+  left: 42%;
+  right: -58%;
   width: fit-content;
   padding: 8px;
-  margin: auto;
   border: 2px dashed #000
 }
 
 .image {
   position: relative;
   top: 0;
-  right: 300px;
-  height: auto;
-  width: auto;
+  right: -50%;
 }
 
 a {
