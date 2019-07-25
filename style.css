@@ -1,9 +1,5 @@
 body {
-  height: 100%;
-  width: 100%;
-  background-image: url(clownpoodle.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: white;
   display: inline; 
   text-align: left;
   color: #000;
