@@ -17,6 +17,12 @@ body {
   border: 2px dashed #000
 }
 
+.image {
+  position: relative;
+  height: auto;
+  width: auto;
+}
+
 a {
  background: burlywood;
 }
