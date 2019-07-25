@@ -19,6 +19,8 @@ body {
 
 .image {
   position: relative;
+  top: 0;
+  right: 300px;
   height: auto;
   width: auto;
 }
