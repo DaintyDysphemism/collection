@@ -2,10 +2,8 @@
 
 Repository to-do:
  Front page:
- - (Solved?) Adjust body width to browser size (thereby indirectly adjusting size of clownpoodle
- - Adjust so title will appear relative to browser (moving with the poodle)
- - Create grid for project navigation
- - Alt. create grid layout for all elements
+ - Compile/write step-by-step procedure for front page layout (inside div)
+   - header, side image, boxes (post-its-ish) of content links
   
   
 Projects in progress:
