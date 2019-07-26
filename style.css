@@ -1,6 +1,6 @@
 body {
   background-color: white;
-  display: inline; 
+  display: inline-block; 
   text-align: left;
   color: #000;
   font-family: Garamond;
@@ -23,7 +23,7 @@ body {
 }
 
 .image {
-  height: 25%;
+  height: 50%;
   width: auto;
 }
 
