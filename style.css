@@ -23,9 +23,8 @@ body {
 }
 
 .image {
-  position: relative;
-  top: 0;
-  right: -50%;
+  height: 50%;
+  width: auto;
 }
 
 a {
