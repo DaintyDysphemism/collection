@@ -1,41 +1,54 @@
 * {
- margin: 0;
- padding: 0;
-}
-
-.front-page .grid {
-  border: 2px solid #000;
-  width: 100vw;
-  height: 100vh;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  
-}
-
-.header {
-  background-color: grey;
-  border: 1px dotted blue;
-  grid-column: 2 / span 2:
-  grid-row: 1 / 1;
-  width: fit-content;
-}
-
-.aside-image {
-  grid-column: 4 / span 2:
-  grid-row: 1 / 1;
-  width: fit-content;
-}
-
-.front-page h1 {
-  font-family: Garamond;
-  font-size: 40px;
-  font-weight: 200;
-  width: fit-content;
-  padding: 8px;
-  border: 2px dashed #000
-}
-
-a {
- background: burlywood;
-}
+    margin: 0;
+    padding: 0;
+  }
+    
+	.front-page { /* The container */
+      display: grid;
+      max-width: 100vw;
+      height: 100vh;
+      grid-template-columns: repeat(10, 1fr);
+      grid-template-rows: repeat(10, 1fr);
+    }
+    
+    .front-page header {
+      background-color: white;
+      border: 1px dotted black;
+      grid-area: 1 / 2 / span 1 / span 3;
+    }
+    
+    .front-page aside {
+      background-color: black;
+      grid-area: 1 / 7 / span 10 / span 5;
+    }
+    
+    #project-1 {
+      background-color: white;
+      border: 1px dotted black;
+      grid-area: 4 / 2 / span 1 / span 3;
+    }
+    
+    #project-2 {
+      background-color: white;
+      border: 1px dotted black;
+      grid-area: 5 / 2 / span 1 / span 3;
+    }
+    
+    #project-z {
+      background-color: white;
+      border: 1px dotted black;
+      grid-area: 6 / 2 / span 1 / span 3;
+    }
+    
+    .front-page footer {
+     background-color: white;
+     border: 1px dotted black;
+     grid-area: 10 / 1 / span 1 / span 6;
+    }
+    
+    
+    /* For easy visualizing of the grid */
+    .box {
+      background-color: grey;
+      border: 1px solid red;
+    }
