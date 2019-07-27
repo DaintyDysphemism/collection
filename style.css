@@ -13,6 +13,11 @@
   
 }
 
+.item {
+  background-color: grey;
+  border: 1px dotted blue;
+}
+
 .front-page h1 {
   font-family: Garamond;
   font-size: 40px;
