@@ -17,9 +17,9 @@
       grid-area: 1 / 2 / span 1 / span 3;
     }
     
-    .front-page aside {
+    .front-page aside { /* The poodle image */
       background-color: black;
-      grid-area: 1 / 7 / span 10 / span 5;
+      grid-area: 1 / 8 / span 10 / span 4;
     }
     
     #project-1 {
