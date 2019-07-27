@@ -1,8 +1,7 @@
 # Collection
 
 Repository to-do:
- Front page:
-  -- Initial grid layout
+ Front page: Finished Initial grid layout
    - Take-aways:
     - max-width and max-height do not work together when vw, vh (why?)
     - vw and vh + border = scroll (unless max dimensions are set)
