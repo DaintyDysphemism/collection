@@ -8,6 +8,9 @@
      * vw and vh + border = scroll (unless max dimensions are set)
      * do not confuse vw and vh
      * after styling, make sure to include the element as well (define && declare!)
+ * - Image as an aside item
+ * - Header styling
+ * - Packing list items
   
   
 ##Projects in progress:
