@@ -18,8 +18,11 @@
     }
     
     .front-page aside { /* The poodle image */
-      background-color: black;
-      grid-area: 1 / 8 / span 10 / span 4;
+      grid-area: 1 / 8 / span 10 / span 3;
+    }
+
+    .front-page img {
+      height: 100%; 
     }
     
     #project-1 {
