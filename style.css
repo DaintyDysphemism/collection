@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fChc4EsA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +29,7 @@
       line-height: 82%;
       width: fit-content;
       text-align: center;
-      font-weight: 200;
+      font-weight: 300; /* Automatically 300 when Roboto */
       font-family: Roboto, monospace;
       font-size: 3.55em;
       margin: 0.75em auto 0 auto;
