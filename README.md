@@ -10,8 +10,8 @@
      * after styling, make sure to include the element as well (define && declare!)
  * (v/) Image as an aside item
    * Fix little pixel bottom gap (appeared apparently after image was fit inside container)
- * Header styling
- * Packing list items
+ * (v/) Header styling (still nitpicking the details)
+ * Project items
   
   
 ##Projects in progress:
