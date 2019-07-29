@@ -11,6 +11,7 @@
  * (v/) Image as an aside item
    * Fix little pixel bottom gap (appeared apparently after image was fit inside container)
  * (v/) Header styling (still nitpicking the details)
+   * (v/) Resolve inconsistency with Mac device (solved by importing both latin and latin ext- of the font, not just one)
  * Project items
   
   
