@@ -1,5 +1,7 @@
 # Collection
 
+###Not actually a readme file but more of a journal as I go along
+
 ##Repository to-do:
  Front page:
  * (v/) Initial grid layout
