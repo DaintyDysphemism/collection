@@ -17,13 +17,14 @@
 
     .front-page h1 {
       display: inline-block;
-      line-height: 85%;
+      line-height: 82%;
       width: fit-content;
       text-align: center;
-      font-family: Garamond, serif;
+      font-weight: 200;
+      font-family: Roboto, serif;
       font-size: 3.55em;
       margin: 0.75em auto 0 auto;
-      border-bottom: 3px dashed black;
+      border-bottom: 4px double black;
       
     }
     
