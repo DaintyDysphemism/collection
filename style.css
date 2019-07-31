@@ -61,19 +61,25 @@
     #project-1 {
       background-color: white;
       border: 1px dotted black;
-      grid-area: 4 / 2 / span 1 / span 3;
+      grid-area: 4 / 3 / span 1 / span 3;
+      padding: 5% 0 0 10%;
+      /* Note to self: switch grid-area to a variable for fewer selectors/lines.
+          Or why not turn it all into a list? (Nav style)
+       */
     }
     
     #project-2 {
       background-color: white;
       border: 1px dotted black;
-      grid-area: 5 / 2 / span 1 / span 3;
+      grid-area: 5 / 3 / span 1 / span 3;
+      padding: 5% 0 0 10%;
     }
     
     #project-z {
       background-color: white;
       border: 1px dotted black;
-      grid-area: 6 / 2 / span 1 / span 3;
+      grid-area: 6 / 3 / span 1 / span 3;
+      padding: 5% 0 0 10%;
     }
     
     .front-page footer {
