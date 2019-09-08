@@ -11,3 +11,5 @@ Numerically according to time of invention.
   - Info om hur mycket som får plats i en tvätt (se även olika tvättmaterial)
 6. Algoritm som "ger förslag på aktiviteter baserade på angett humör, även 'jag lutar ca % utav dessa två alternativ, vilket ska jag ta'?" (Gustavs påfund)
   - Känslohjul från asp? (Mood wheel for authors/writing)
+7. Slot machine (aniamted?)
+8. "Slide the block"-type puzzle game
